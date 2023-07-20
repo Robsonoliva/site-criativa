@@ -17,6 +17,7 @@
         width: 0,1%;
         }
     .cabeçalho-lista-item{
+      color: white;
         display: inline-block;
         margin: 0 16px;
         font-size: 24px;
