@@ -39,25 +39,26 @@
     .paragrafo-ojetivo-titulo{
         color: white;
         }
-         .Missão{
-            background-image: linear-gradient(#A6A8BC,#3245EC);
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;        
+    .Missão{
+       background-image: linear-gradient(#A6A8BC,#3245EC);
+       color: white;
+       padding: 60px;
+       display: flex;
+        align-items: center;
+        justify-content: center;        
         }
-        .Missão-div-conteudo{
-            text-align: center;
-            margin: 1em;
-            width: 40%;
-            padding: 0,5em
-            justify-content: center;
-            align-items: center;
+    .Missão-div-conteudo{
+       text-align: center;
+       margin: 1em;
+       width: 40%;
+       padding: 0,5em;
+       justify-content: center;
+       align-items: center;
          }
          .Missão-conteúdo{
             justify-content: baseline;
          }
-     .Icone-plataformas .linha-superior {
+      .Icone-plataformas .linha-superior {
         display:inline;
         margin-top: 35px;
         margin-bottom: 35px;
@@ -72,19 +73,23 @@
         margin-left: 30px;
       }
       .Contatos {
+        background-color: white;
         text-align: center;
       }
      .Contatos-titulo {
+      padding: 0 0;
         margin-bottom: 20px; 
         font-size: 30px;
       }
-     .Contatos-info {
+     .Contatos-rodape {
+      padding: 0 0;
         display: flex; 
         align-items: center; 
         margin-bottom: 50px; 
         display: inline-flex;
      }
-      .Contatos-info img {
+      .Contatos-rodape img {
+        padding: 0 0;
         width: 30px; 
         height: 30px;
         margin-right: 10px;
