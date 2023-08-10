@@ -1,103 +1,112 @@
-*{
-    margin: 0;
-    padding: 0;
-   }
-  body{
-    font-family: 'Poppins', sans-serif;
-  }
-.cabeçalho{
-    background-color:#3245EC;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px 0;
-        }
-    .cabeçalho-imagem{
-        width: 0,1%;
-        }
-    .cabeçalho-lista-item{
-      color: white;
-        display: inline-block;
-        margin: 0 16px;
-        font-size: 24px;
-        }
-    .Objetivo{
-        background-image: linear-gradient(#3245EC,#A6A8BC);
-        display: flex;
-        align-items: center;
-        padding: 0,2em;
-        text-align: center;
-        }
-    .Objetivo-título{
-        color: white;
-       justify-content: center;
-       display: flex;
-        width: 70%;
-        padding: 1.5em;
-        margin-left: 90px;
-        }
-    .paragrafo-ojetivo-titulo{
-        color: white;
-        }
-    .Missão{
-       background-image: linear-gradient(#A6A8BC,#3245EC);
-       color: white;
-       padding: 60px;
-       display: flex;
-        align-items: center;
-        justify-content: center;        
-        }
-    .Missão-div-conteudo{
-       text-align: center;
-       margin: 1em;
-       width: 40%;
-       padding: 0,5em;
-       justify-content: center;
-       align-items: center;
-         }
-         .Missão-conteúdo{
-            justify-content: baseline;
-         }
-      .Icone-plataformas .linha-superior {
-        display:inline;
-        margin-top: 35px;
-        margin-bottom: 35px;
-        margin-right: 20px;
-      }
-         .Icone-plataformas .linha-inferior {
-        display: inline;
-        margin-bottom: 20px;
-        margin-right: 20px;
-     } 
-      .Computador{
-        margin-left: 30px;
-      }
-      .Contatos {
-        background-color: white;
-        text-align: center;
-      }
-     .Contatos-titulo {
-      padding: 0 0;
-        margin-bottom: 20px; 
-        font-size: 30px;
-      }
-     .Contatos-rodape {
-      padding: 0 0;
-        display: flex; 
-        align-items: center; 
-        margin-bottom: 50px; 
-        display: inline-flex;
-     }
-      .Contatos-rodape img {
-        padding: 0 0;
-        width: 30px; 
-        height: 30px;
-        margin-right: 10px;
-        display: inline;
-      }
-      
-   
-    
+* {
+  margin: 0;
+  padding: 0;
+}
 
-        
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.cabeçalho {
+  background-color: #3245EC;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.cabeçalho-imagem {
+  width: 0, 1%;
+}
+
+.cabeçalho-lista-item {
+  color: white;
+  display: inline-block;
+  margin: 0 16px;
+  font-size: 24px;
+}
+
+.Objetivo {
+  background-image: linear-gradient(#3245EC, #A6A8BC);
+  display: flex;
+  align-items: center;
+  padding: 0, 2em;
+  text-align: center;
+}
+
+.Objetivo-título {
+  color: white;
+  justify-content: center;
+  display: flex;
+  width: 70%;
+  padding: 1.5em;
+  margin-left: 90px;
+}
+
+.paragrafo-ojetivo-titulo {
+  color: white;
+}
+
+.Missão {
+  background-image: linear-gradient(#A6A8BC, #3245EC);
+  color: white;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Missão-div-conteudo {
+  text-align: center;
+  margin: 1em;
+  width: 40%;
+  padding: 0, 5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.Missão-conteúdo {
+  justify-content: baseline;
+}
+
+.Icone-plataformas .linha-superior {
+  display: inline;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-right: 20px;
+}
+
+.Icone-plataformas .linha-inferior {
+  display: inline;
+  margin-bottom: 20px;
+  margin-right: 20px;
+
+}
+
+.Computador {
+  margin-left: 30px;
+}
+
+.Contatos {
+ background-color: white;
+ text-align: center;
+}
+
+.Contatos-titulo {
+   margin-bottom: 20px;
+  font-size: 30px;
+}
+.embaixador-imagem{
+  width: 120px;
+}
+.embaixador-icone{
+  width: 24px;
+}
+.embaixador-div{
+  text-align: center;
+}
+.embaixador-todos{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
