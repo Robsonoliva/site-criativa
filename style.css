@@ -110,3 +110,19 @@ body {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
 }
+.a{
+  color: #ffffff;
+  text-decoration: none;  
+}
+a:hover{
+  color: rgb(58, 33, 53);
+  text-decoration: none;
+}
+.cabeçalho{
+  background-color:#00008b;
+  color:#ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
